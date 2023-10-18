@@ -1,0 +1,85 @@
+.information7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 6rem 0rem 6rem;
+}
+
+.title-info7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemen{
+    margin-bottom: 2rem;
+}
+
+.elemen p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.elemen input{
+    width: 100%;
+    padding: 13px;
+    border-bottom: 1px solid;
+    border-radius: none;
+    border-right: none;
+    border: 0px 0px 0px 2px solid;
+    border-top: none;
+    border-left: none;
+    font-size: 18px;
+}
+
+.elemen input:focus {
+    border: none;
+}
+
+.elemen input:focus {
+    outline: none;
+    border-bottom: 1px solid;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.alinhaform{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.espace{
+    margin-top: 3rem;
+}
+
+.buttonenviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonenviar input{
+    background-color: var(--title-color);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 9px;
+    color: white;
+    font-size: 16px;
+    width: 16rem;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    margin-top: 4rem;
+    width: 35rem;
+}
+

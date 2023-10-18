@@ -1,0 +1,88 @@
+.information3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 6rem 0rem 6rem;
+    flex-direction: column;
+}
+
+.text-info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title1-textinfo {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    max-width: 29rem;
+    margin: 0;
+    color: var(--title-color);
+}
+
+.title2-textinfo {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: rgba(52, 63, 90, 1);
+    margin-top: 0.5rem;
+}
+
+.text-info3 p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.elementos-info3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optionsinfo3 {
+    margin-bottom: 2rem;
+    border: 1px solid var(--textop-color);
+    padding: 9px;
+    border-radius: 0.5rem;
+    cursor: default;
+}
+
+.optionsinfo3:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.optionsinfo3 h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--textop-color);
+    margin: 0;
+}
+
+.alinhainfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-info3 img {
+    width: 17rem;
+    height: 18rem;
+    margin: 0rem 5rem 0rem 5rem;
+}
+
+.sub-2textinfo {
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.sub-2textinfo-maior {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+

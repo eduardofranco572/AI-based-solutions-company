@@ -1,0 +1,43 @@
+@media (max-width: 425px){
+    .part1-infofoter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-infofoter {
+        font-size: 31px;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    .part1-infofoter form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .part2-infofoter {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .infosptfooter2 {
+        margin: 2rem 0 0 0;
+    }
+
+    .img-info3 img {
+        width: 13rem;
+        height: 13rem;
+        margin: 0rem 5rem 0rem 5rem;
+    }
+
+    .information1 {
+        flex-direction: column-reverse;
+    }
+
+
+
+
+}

@@ -1,0 +1,155 @@
+.back{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.back img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+.infos-footer{
+    background-color: rgba(14, 17, 51, 1);
+    height: 100%;
+}
+
+.part1-infofoter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-infofoter{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    max-width: 27rem;
+}
+
+.part1-infofoter form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.part1-infofoter form p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 29rem;
+    color: white;
+}
+
+.inputfooter{
+    width: 16rem;
+    padding: 13px;
+    border-bottom: 1px solid;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: rgba(52, 63, 90, 1);
+}
+
+.buttonenviar2 input{
+    background-color: var(--title-color);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+    width: 9rem;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+}
+
+.barra-footer{
+    width: 100%;
+    height: 2px;
+    border-radius: 1px;
+    background-color:rgba(228, 228, 231, 1);
+}
+
+.alinha-barra-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.alinhafooter{
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.part2-infofoter{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.infosptfooter2{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 10rem 0rem 0rem;
+}
+
+.infosptfooter2 h1{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    max-width: 27rem;
+}
+
+.infosptfooter2 p{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 29rem;
+    color: white;
+}
+
+.iconsfooter{
+    display: flex;
+    align-items: center;
+    width: 10rem;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 1rem;
+}
+
+.finaltitle{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0;
+    color: rgba(255, 255, 255, 1);
+}
+
+.finaltitle{
+    display: flex;
+    justify-content: center;
+}
+
+.alinha-barra-footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.barra-footer2{
+    width: 80%;
+    height: 2px;
+    border-radius: 1px;
+    background-color:rgba(228, 228, 231, 1);
+}

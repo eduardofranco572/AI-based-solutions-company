@@ -1,0 +1,114 @@
+.information2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 0rem 0rem 6rem;
+}
+
+.text-info1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text-info1 {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    max-width: 36rem;
+    margin: 0;
+}
+
+.sub-text-info1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 39rem;
+    margin-bottom: 2rem;
+}
+
+.benefits ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    max-width: 37rem;
+}
+
+.benefits ul {
+    margin: 0;
+    padding: 0;
+}
+
+.benefits ul li img {
+    width: 18px;
+    height: 14px;
+}
+
+.benefits ul li p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 0.5rem;
+}
+
+.img-info1 img {
+    width: 24rem;
+    height: 24rem;
+}
+
+.title-text-info2 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    max-width: 29rem;
+    margin: 0;
+}
+
+.itens-bene2 {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.text-int-bene2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.title-text-bene2 {
+    margin: 0;
+    font-size: 20px;
+    max-width: 33rem;
+    color: rgba(14, 17, 51, 1);
+}
+
+.sub-text-bene2 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 33rem;
+}
+
+.img-info2 {
+    display: flex;
+    align-items: center;
+}
+
+.imgsmart {
+    position: absolute;
+    width: 31rem;
+    height: 45rem;
+    user-select: none;
+}
+
+.fundo {
+    width: 37rem;
+    height: 36rem;
+    user-select: none;
+}
+
+[data-aos=fade-up-left] {
+    transform: translate3d(0, 0, 0) !important;
+}

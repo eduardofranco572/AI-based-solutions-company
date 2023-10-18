@@ -1,0 +1,154 @@
+.information6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 6rem 0rem 6rem;
+}
+
+.cards-cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cardCost1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    background: linear-gradient(0deg, #E7E9EB, #E7E9EB), linear-gradient(0deg, #F9FBFD, #F9FBFD);
+    border-radius: 0.5rem;
+    padding: 20px;
+    border: 2px solid rgb(227 227 227);
+    margin-bottom: 10rem;
+}
+
+.nomeplano {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.barraCost {
+    width: 60%;
+    border-radius: 5px;
+    background-color: black;
+    padding: 1px;
+    margin: 1rem 0 1rem 0;
+}
+
+.bnenficioCost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bnenficioCost h1 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.bnenficioCost ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 1rem;
+    overflow: scroll;
+    max-height: 11rem;
+    overflow-x: hidden;
+    overflow-y: visible;
+    cursor: move;
+    user-select: none;
+}
+
+.bnenficioCost ul::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.bnenficioCost ul::-webkit-scrollbar-thumb {
+    background-color: #ccc; 
+    border-radius: 4px; 
+}
+
+.bnenficioCost ul::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+
+.bnenficioCost ul::-webkit-scrollbar-button {
+    display: none; 
+}
+
+.bnenficioCost ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+
+.bnenficioCost ul li p {
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.precos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.precos h1 {
+    margin: 4px 0rem 6px 0rem;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.precos p {
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+}
+
+.textcortado {
+    text-decoration: line-through;
+}
+
+.valorplano {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttonCost{
+    margin-top: 2rem;
+}
+
+.buttonCost button {
+    width: 10rem;
+    padding: 10px;
+    background: rgba(4, 107, 210, 1);
+    border: none;
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 2px 1px 22px -1px rgba(4, 107, 210, 1);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title1-info6{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    color: var(--title-color);
+}
+
+.sup-info6{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 4rem;
+}

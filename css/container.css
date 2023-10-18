@@ -1,0 +1,75 @@
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.itens-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.title1 {
+    margin: 0;
+    font-size: 62px;
+    color: var(--text-color);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title2 {
+    margin: 0;
+    font-size: 56px;
+    color: var(--title-color);
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line {
+    border-right: 2px solid #3d73ff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+.typing-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal, typing 3s steps(40) 2s infinite normal both;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 27rem;
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: rgba(61, 115, 255, 0.75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.subtitle {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 29rem;
+    text-align: center;
+}
+
+.information1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 6rem 0rem 6rem;
+}
+
+

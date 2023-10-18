@@ -1,0 +1,154 @@
+@media (max-width: 425px){
+    .title1 {
+        font-size: 43px;
+        text-align: center;
+    }
+
+    .title2 {
+        font-size: 42px;
+    }
+
+    .subtitle {
+        max-width: 16rem;
+    }
+
+    .information1, .information2, .information3, .information4, .information5, .information6, .information7, .information8 {
+        margin: 5rem 1rem 0rem 1rem;
+    }
+
+    .img-info1 img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .title-text-info1 {
+        font-size: 22px;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .text-info1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sub-text-info1 {
+        max-width: 16rem;
+    }
+
+    .benefits ul li {
+        max-width: 19rem;
+    }
+
+    .img-info2 {
+        display: none;
+    }
+
+ 
+
+    .title-text-info2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .sub-text-bene2 {
+        max-width: 14rem;
+    }
+
+    .title-text-bene2 {
+        max-width: 15rem;
+    }
+
+    .title2-textinfo {
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    .text-info3 p {
+        max-width: 15rem;
+    }
+
+    .alinhainfo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .corpo-cards p {
+        max-width: 12rem;
+    }
+
+    .card1 {
+        width: 17rem !important;
+        padding: 30px;
+    }
+
+    .img-info5 img {
+        display: none;
+    }
+
+    .texts-info5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .titulos-info5{
+        text-align: center;
+    }
+
+    .sub-info5 {
+        max-width: 16rem;
+    }
+
+    .not1 {
+        width: 17rem;
+    }
+    
+    .cards-cost {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardCost1 {
+        width: 18rem;
+        padding: 23px;
+        margin-bottom: 3rem;
+    }
+
+    form {
+        width: 100%;
+    }
+    
+    .elemen input {
+        width: 75%;
+    }
+
+    .perguntas {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .title-info8 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    summary {
+        width: 12rem;
+    }
+    .title-info82 {
+        margin-top: 3rem;
+    }
+
+    .information5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

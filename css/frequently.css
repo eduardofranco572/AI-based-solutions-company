@@ -1,0 +1,127 @@
+.information8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 6rem 0rem 6rem;
+}
+
+.titles-info8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-info8{
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: rgba(52, 63, 90, 1);
+    margin-top: 0.5rem;
+}
+
+.sub-info8{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final button{
+    background-color: var(--title-color);
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 9px;
+    color: white;
+    font-size: 16px;
+    width: 16rem;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-info82{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: rgba(52, 63, 90, 1);
+    margin-top: 0.5rem;
+}
+
+.perguntas{
+    margin: 3rem 0 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+summary::-webkit-details-marker {
+    display: none
+}
+
+details {
+    background-color: white;
+    border: 2px solid rgba(52, 63, 90, 1);
+    padding: 0.8rem 10px 0.8rem 25px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+summary {
+    list-style-type: '';
+    transition: 1s;
+    width: 30rem;
+    color: rgba(52, 63, 90, 1);
+    user-select: none;
+}
+
+details summary {
+    cursor: pointer;
+    transition: margin 150ms ease-out;
+}
+  
+details[open] summary {
+    margin-bottom: 10px;
+}
+
+.titulo-per h1 {
+    color: rgba(52, 63, 90, 1);
+    font-weight: bold;
+}
+
+.titulo-per {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.borda-per {
+    display: flex;
+    justify-content: center;
+    background-color: #045113;
+    width: 10rem;
+    height: 3px;
+    border-radius: 1px;
+    border: none;
+}
+
+details p {
+    max-width: 30rem;
+    color: rgba(52, 63, 90, 1);
+}
+
+.per1 {
+    font-weight: 600;
+}

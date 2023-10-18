@@ -1,0 +1,18 @@
+:root {
+    --main-color: #FFF;
+    --text-color: #000000;
+    --text-color: #000000;
+    --title-color: #3D73FF;
+    --footer-color: #0E1133;
+    --footer-color: #F4000000;
+    --textop-color:rgba(52, 63, 90, 1);
+}
+  
+body{
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
